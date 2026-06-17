@@ -131,6 +131,7 @@ a {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	align-items: center; /* center the capped content column */
 	gap: 5rem;
 }
 
@@ -208,6 +209,19 @@ a {
 }
 
 /* Responsive Breakpoints */
+
+/* Large monitors: stop the layout from stretching endlessly */
+@media (min-width: 1536px) {
+	.sidebar {
+		width: 460px;
+	}
+	.main-content {
+		margin-left: 460px;
+		width: calc(100% - 460px);
+		padding: 5rem 6rem;
+	}
+}
+
 @media (max-width: 1200px) {
 	.sidebar {
 		padding: 3rem 2rem;

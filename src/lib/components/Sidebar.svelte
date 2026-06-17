@@ -51,6 +51,12 @@
 			icon: `<path d="m4.7144 15.9555 4.7174-2.6471.079-.2307-.079-.1275h-.2307l-.7893-.0486-2.6956-.0729-2.3375-.0971-2.2646-.1214-.5707-.1215-.5343-.7042.0546-.3522.4797-.3218.686.0608 1.5179.1032 2.2767.1578 1.6514.0972 2.4468.255h.3886l.0546-.1579-.1336-.0971-.1032-.0972L6.973 9.8356l-2.55-1.6879-1.3356-.9714-.7225-.4918-.3643-.4614-.1578-1.0078.6557-.7225.8803.0607.2246.0607.8925.686 1.9064 1.4754 2.4893 1.8336.3643.3035.1457-.1032.0182-.0728-.164-.2733-1.3539-2.4467-1.445-2.4893-.6435-1.032-.17-.6194c-.0607-.255-.1032-.4674-.1032-.7285L6.287.1335 6.6997 0l.9957.1336.419.3642.6192 1.4147 1.0018 2.2282 1.5543 3.0296.4553.8985.2429.8318.091.255h.1579v-.1457l.1275-1.706.2368-2.0947.2307-2.6957.0789-.7589.3764-.9107.7468-.4918.5828.2793.4797.686-.0668.4433-.2853 1.8517-.5586 2.9021-.3643 1.9429h.2125l.2429-.2429.9835-1.3053 1.6514-2.0643.7286-.8196.85-.9046.5464-.4311h1.0321l.759 1.1293-.34 1.1657-1.0625 1.3478-.8804 1.1414-1.2628 1.7-.7893 1.36.0729.1093.1882-.0183 2.8535-.607 1.5421-.2794 1.8396-.3157.8318.3886.091.3946-.3278.8075-1.967.4857-2.3072.4614-3.4364.8136-.0425.0304.0486.0607 1.5482.1457.6618.0364h1.621l3.0175.2247.7892.522.4736.6376-.079.4857-1.2142.6193-1.6393-.3886-3.825-.9107-1.3113-.3279h-.1822v.1093l1.0929 1.0686 2.0035 1.8092 2.5075 2.3314.1275.5768-.3218.4554-.34-.0486-2.2039-1.6575-.85-.7468-1.9246-1.621h-.1275v.17l.4432.6496 2.3436 3.5214.1214 1.0807-.17.3521-.6071.2125-.6679-.1214-1.3721-1.9246L14.38 17.959l-1.1414-1.9428-.1397.079-.674 7.2552-.3156.3703-.7286.2793-.6071-.4614-.3218-.7468.3218-1.4753.3886-1.9246.3157-1.53.2853-1.9004.17-.6314-.0121-.0425-.1397.0182-1.4328 1.9672-2.1796 2.9446-1.7243 1.8456-.4128.164-.7164-.3704.0667-.6618.4008-.5889 2.386-3.0357 1.4389-1.882.929-1.0868-.0062-.1579h-.0546l-6.3385 4.1164-1.1293.1457-.4857-.4554.0608-.7467.2307-.2429 1.9064-1.3114Z" fill="currentColor"/>`
 		},
 		{
+			name: 'Antigravity',
+			color: '#a855f7',
+			colorGlow: 'rgba(168, 85, 247, 0.15)',
+			icon: `<path d="M21.751 22.607c1.34 1.005 3.35.335 1.508-1.508C17.73 15.74 18.904 1 12.037 1 5.17 1 6.342 15.74.815 21.1c-2.01 2.009.167 2.511 1.507 1.506 5.192-3.517 4.857-9.714 9.715-9.714 4.857 0 4.522 6.197 9.714 9.715z" fill="currentColor"/>`
+		},
+		{
 			name: 'n8n',
 			color: '#FF6C37',
 			colorGlow: 'rgba(255, 108, 55, 0.15)',
@@ -60,7 +66,7 @@
 			name: 'Power Automate',
 			color: '#0078d4',
 			colorGlow: 'rgba(0, 120, 212, 0.15)',
-			icon: `<path d="m20.079 7.235 3.666 4.097c.34.38.34.956 0 1.336l-7.63 8.528c-.19.213-.462.334-.748.334H7.289l12.79-14.295ZM6.789 21.53H1.005c-.867 0-1.326-1.025-.748-1.671L15.748 2.545c.139.057.265.145.367.259l3.631 4.058a.478.478 0 0 0-.039.039L6.916 21.197a.497.497 0 0 0-.127.333Zm8.356-19.06-8.192 9.155L.257 4.141c-.578-.646-.119-1.671.748-1.671h14.14Z" fill="currentColor"/>`
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-15 -13 122 122"><defs><linearGradient id="sidebar_pa_paint0" x1="43" y1="55" x2="29" y2="10" gradientUnits="userSpaceOnUse"><stop stop-color="#0D36A5"/><stop offset="1" stop-color="#1152D4"/></linearGradient><linearGradient id="sidebar_pa_paint1" x1="46" y1="10" x2="46" y2="86" gradientUnits="userSpaceOnUse"><stop stop-color="#84CAFF"/><stop offset="1" stop-color="#61B1FB"/></linearGradient><linearGradient id="sidebar_pa_paint2" x1="37.5" y1="10" x2="37.5" y2="86" gradientUnits="userSpaceOnUse"><stop stop-color="#3B90F5"/><stop offset="1" stop-color="#2A78EE"/></linearGradient><mask id="sidebar_pa_mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-1" y="10" width="97" height="76"><path d="M61.2116 10C62.3496 10 63.4337 10.4847 64.1925 11.3328L94.6136 45.3328C95.9723 46.8514 95.9723 49.1486 94.6136 50.6672L64.1925 84.6672C63.4337 85.5153 62.3496 86 61.2116 86H3.94634C0.488777 86 -1.34012 81.9095 0.965366 79.3328L29 48L0.965366 16.6672C-1.34012 14.0905 0.488777 10 3.94634 10H61.2116Z" fill="white"/></mask></defs><g mask="url(#sidebar_pa_mask0)"><path d="M63 10L29 48L-5 10H63Z" fill="url(#sidebar_pa_paint0)"/><path d="M-5 86L63 10L97 48L63 86H-5Z" fill="url(#sidebar_pa_paint1)"/><path d="M-5 86L63 10L80 29L29 86H-5Z" fill="url(#sidebar_pa_paint2)"/></g></svg>`
 		},
 		{
 			name: 'Apps Script',
@@ -81,16 +87,10 @@
 			icon: `<path d="M5 19H10A5 5 0 115 14ZM19 14A5 5 0 1114 19H19ZM10 5A5 5 0 105 10V5ZM19 5V10A5 5 0 1014 5Z" fill="currentColor"/>`
 		},
 		{
-			name: 'Antigravity',
-			color: '#a855f7',
-			colorGlow: 'rgba(168, 85, 247, 0.15)',
-			icon: `<path d="M21.751 22.607c1.34 1.005 3.35.335 1.508-1.508C17.73 15.74 18.904 1 12.037 1 5.17 1 6.342 15.74.815 21.1c-2.01 2.009.167 2.511 1.507 1.506 5.192-3.517 4.857-9.714 9.715-9.714 4.857 0 4.522 6.197 9.714 9.715z" fill="currentColor"/>`
-		},
-		{
 			name: 'Python',
 			color: '#3776ab',
 			colorGlow: 'rgba(55, 118, 171, 0.15)',
-			icon: `<path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z" fill="currentColor"/>`
+			icon: `<img src="/pythonlogo.png" alt="Python" class="badge-icon" />`
 		},
 		{
 			name: 'Svelte',
@@ -223,61 +223,37 @@
 					{currentText}<span class="typing-cursor">|</span>
 				</p>
 				<p class="bio">Automating processes, optimizing workflows, designing intelligent AI agent pipelines, and building responsive web applications for seamless operational scale.</p>
-				<div class="contact-details">
-					<div class="contact-item">
-						<svg class="contact-icon" viewBox="0 0 24 24">
-							<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
-						</svg>
-						<a href="mailto:kean.ghislain27@gmail.com" class="contact-link">kean.ghislain27@gmail.com</a>
-					</div>
-					<div class="contact-item">
-						<svg class="contact-icon" viewBox="0 0 24 24">
-							<path d="M6.62 10.79a15.15 15.15 0 006.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
-						</svg>
-						<a href="tel:+6309184298098" class="contact-link">+6309184298098</a>
-						<div class="contact-app-icons">
-							<span class="app-icon whatsapp" title="WhatsApp">
-								<svg viewBox="0 0 24 24" class="app-svg">
-									<path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.459 3.483 1.332 5.004L2 22l5.143-1.35c1.476.804 3.137 1.229 4.869 1.229 5.506 0 9.988-4.482 9.988-9.988C22 6.482 17.518 2 12.012 2zm3.834 14.156c-.198.552-.984 1.008-1.542 1.08-.378.048-.87.084-2.502-.588-2.088-.864-3.432-2.988-3.48-3.048-.048-.06-.876-1.164-.876-2.22 0-1.056.552-1.572.75-1.776.198-.204.432-.252.576-.252.144 0 .288 0 .408.012.132.006.3.006.468.408.18.432.612 1.488.666 1.596.054.108.09.24.018.384-.072.144-.108.24-.216.372-.108.12-.228.276-.324.372-.108.108-.222.228-.096.444.12.216.54 8.92 1.344 1.632.48.432.888.576 1.116.48.228-.096.48-.228.648-.444.168-.216.168-.372.12-.468-.048-.096-.192-.144-.408-.252s-1.272-.624-1.47-.696c-.198-.072-.342-.108-.486.108-.144.216-.558.696-.684.84-.126.144-.252.156-.468.048s-.912-.336-1.74-1.08c-.642-.576-1.08-1.284-1.206-1.5-.126-.216-.012-.336.096-.444.096-.096.216-.252.324-.372.108-.12.144-.204.216-.348.072-.144.036-.264-.018-.372-.054-.108-.486-1.176-.666-1.608-.18-.426-.354-.366-.486-.372-.126-.006-.27-.006-.414-.006a.798.798 0 00-.576.27c-.198.216-.756.738-.756 1.8 0 1.062.774 2.088.882 2.232.108.144 1.518 2.322 3.678 3.258.516.222.918.354 1.23.456.516.162.984.138 1.356.084.414-.06 1.272-.516 1.452-1.02.18-.504.18-.936.126-1.026-.054-.09-.198-.144-.414-.252z"/>
-								</svg>
-							</span>
-							<span class="app-icon viber" title="Viber">
-								<svg viewBox="0 0 24 24" class="app-svg">
-									<path d="M11.398.002C9.473.028 5.331.344 3.014 2.467 1.294 4.177.693 6.698.623 9.82c-.06 3.11-.13 8.95 5.5 10.541v2.42s-.038.97.602 1.17c.79.25 1.24-.499 1.99-1.299l1.4-1.58c3.85.32 6.8-.419 7.14-.529.78-.25 5.181-.811 5.901-6.652.74-6.031-.36-9.831-2.34-11.551l-.01-.002c-.6-.55-3-2.3-8.37-2.3 0 0-.396-.025-1.038-.016zm.067 1.697c.545-.003.88.02.88.02 4.54.01 6.711 1.38 7.221 1.84 1.67 1.429 2.528 4.856 1.9 9.892-.6 4.88-4.17 5.19-4.83 5.4-.28.09-2.88.73-6.152.52 0 0-2.439 2.941-3.199 3.701-.12.13-.26.17-.35.15-.13-.03-.17-.19-.16-.41l.02-4.019c-4.771-1.32-4.491-6.302-4.441-8.902.06-2.6.55-4.732 2-6.172 1.957-1.77 5.475-2.01 7.11-2.02zm.36 2.6a.299.299 0 0 0-.3.299.3.3 0 0 0 .3.3 5.631 5.631 0 0 1 4.03 1.59c1.09 1.06 1.621 2.48 1.641 4.34a.3.3 0 0 0 .3.3v-.009a.3.3 0 0 0 .3-.3 6.451 6.451 0 0 0-1.81-4.76c-1.19-1.16-2.692-1.76-4.462-1.76zm-3.954.69a.955.955 0 0 0-.615.12h-.012c-.41.24-.788.54-1.148.94-.27.32-.421.639-.461.949a1.24 1.24 0 0 0 .05.541l.02.01a13.722 13.722 0 0 0 1.2 2.6 15.383 15.383 0 0 0 2.32 3.171l.03.04.04.03.03.03.03.03a15.603 15.603 0 0 0 3.18 2.33c1.32.72 2.122 1.06 2.602 1.2v.01c.14.04.268.06.398.06a1.84 1.84 0 0 0 1.102-.472c.39-.35.7-.738.93-1.148v-.01c.23-.43.15-.841-.18-1.121a13.632 13.632 0 0 0-2.15-1.54c-.51-.28-1.03-.11-1.24.17l-.45.569c-.23.28-.65.24-.65.24l-.012.01c-3.12-.8-3.95-3.959-3.95-3.959s-.04-.43.25-.65l.56-.45c.27-.22.46-.74.17-1.25a13.522 13.522 0 0 0-1.54-2.15.843.843 0 0 0-.504-.3zm4.473.89a.3.3 0 0 0 .002.6 3.78 3.78 0 0 1 2.65 1.15 3.5 3.5 0 0 1 .9 2.57.3.3 0 0 0 .3.299l.01.012a.3.3 0 0 0 .3-.301c.03-1.19-.34-2.19-1.07-2.99-.73-.8-1.75-1.25-3.05-1.34a.3.3 0 0 0-.042 0zm.49 1.619a.305.305 0 0 0-.018.611c.99.05 1.47.55 1.53 1.58a.3.3 0 0 0 .3.29h.01a.3.3 0 0 0 .29-.32c-.07-1.34-.8-2.091-2.1-2.161a.305.305 0 0 0-.012 0z"/>
-								</svg>
-							</span>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 
-		<!-- Compact Tech Stack Section -->
-		<div class="tech-stack-section" in:fade={{ duration: 1000, delay: 600 }}>
-			<h3 class="section-title">Tech Stack</h3>
 			<div class="badge-list">
 				{#each allTechs as item}
 					<span class="tech-badge" style="--brand-color: {item.color}; --brand-color-glow: {item.colorGlow}">
 						{#if item.icon}
-							<svg viewBox="0 0 24 24" class="badge-icon">
+							{#if item.icon.startsWith('<svg')}
+								{@html item.icon.replace('<svg', '<svg class="badge-icon"')}
+							{:else if item.icon.startsWith('<img')}
 								{@html item.icon}
-							</svg>
+							{:else}
+								<svg viewBox="0 0 24 24" class="badge-icon">
+									{@html item.icon}
+								</svg>
+							{/if}
 						{/if}
 						{item.name}
 					</span>
 				{/each}
 			</div>
-		</div>
 
 		<!-- Footer Area: Social Media -->
 		<div class="sidebar-footer" in:fly={{ y: 20, duration: 800, delay: 750 }}>
 			<div class="social-links">
 				{#each socials as social}
-					<a href={social.url} target="_blank" rel="noopener noreferrer" class="social-icon" aria-label={social.name}>
+					<a href={social.url} target="_blank" rel="noopener noreferrer" class="social-icon {social.class}" aria-label={social.name}>
 						<svg viewBox="0 0 24 24" class="svg-icon">
 							{@html social.svg}
 						</svg>
-						<span class="tooltip">{social.name}</span>
+						<span class="tooltip">{social.tooltip || social.name}</span>
 					</a>
 				{/each}
 			</div>
@@ -451,6 +427,7 @@
 		width: 13px;
 		height: 13px;
 		flex-shrink: 0;
+		object-fit: contain;
 		color: var(--brand-color, var(--text-secondary));
 		transition: var(--transition-fast);
 	}
@@ -527,98 +504,53 @@
 		text-align: center;
 	}
 
-	.location-container {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.35rem;
-		font-size: 0.85rem;
-		color: var(--text-muted);
-		margin-top: 0.5rem;
-		font-family: var(--font-mono);
+	.social-icon.location:hover {
+		color: #e55333;
+		border-color: rgba(229, 83, 51, 0.4);
+		background: rgba(229, 83, 51, 0.08);
+		box-shadow: 0 4px 12px rgba(229, 83, 51, 0.15);
 	}
 
-	.location-icon {
-		width: 14px;
-		height: 14px;
+	.social-icon.github:hover {
+		color: #ffffff;
+		border-color: rgba(255, 255, 255, 0.4);
+		background: rgba(255, 255, 255, 0.08);
+		box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+	}
+
+	.social-icon.linkedin:hover {
+		color: #0077b5;
+		border-color: rgba(0, 119, 181, 0.4);
+		background: rgba(0, 119, 181, 0.08);
+		box-shadow: 0 4px 12px rgba(0, 119, 181, 0.15);
+	}
+
+	.social-icon.email:hover {
 		color: var(--accent-orange);
+		border-color: var(--accent-orange-glow);
+		background: rgba(217, 90, 56, 0.08);
+		box-shadow: 0 4px 12px rgba(217, 90, 56, 0.15);
 	}
 
-	.contact-details {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 0.4rem;
-		margin-top: 0.75rem;
-		padding: 0.6rem;
-		background: rgba(255, 255, 255, 0.01);
-		border: 1px solid var(--border-color);
-		border-radius: 8px;
-		width: 100%;
-		max-width: 290px;
+	.social-icon.phone:hover {
+		color: #f59e0b;
+		border-color: rgba(245, 158, 11, 0.4);
+		background: rgba(245, 158, 11, 0.08);
+		box-shadow: 0 4px 12px rgba(245, 158, 11, 0.15);
 	}
 
-	.contact-item {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		font-size: 0.825rem;
-		color: var(--text-secondary);
-	}
-
-	.contact-link {
-		color: var(--text-secondary);
-		text-decoration: none;
-		transition: var(--transition-fast);
-	}
-
-	.contact-link:hover {
-		color: var(--accent-orange);
-	}
-
-	.contact-icon {
-		width: 14px;
-		height: 14px;
-		color: var(--accent-orange);
-		flex-shrink: 0;
-	}
-
-	.contact-app-icons {
-		display: flex;
-		align-items: center;
-		gap: 0.35rem;
-		margin-left: 0.25rem;
-	}
-
-	.app-icon {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		width: 18px;
-		height: 18px;
-		border-radius: 4px;
-		background: rgba(255, 255, 255, 0.03);
-		border: 1px solid var(--border-color);
-		color: var(--text-muted);
-		transition: var(--transition-fast);
-	}
-
-	.app-icon.whatsapp:hover {
+	.social-icon.whatsapp:hover {
 		color: #25D366;
 		border-color: rgba(37, 211, 102, 0.4);
 		background: rgba(37, 211, 102, 0.08);
+		box-shadow: 0 4px 12px rgba(37, 211, 102, 0.15);
 	}
 
-	.app-icon.viber:hover {
+	.social-icon.viber:hover {
 		color: #7360F2;
 		border-color: rgba(115, 96, 242, 0.4);
 		background: rgba(115, 96, 242, 0.08);
-	}
-
-	.app-svg {
-		width: 11px;
-		height: 11px;
-		fill: currentColor;
+		box-shadow: 0 4px 12px rgba(115, 96, 242, 0.15);
 	}
 
 	/* Responsive tweaks */
@@ -650,14 +582,6 @@
 
 		.bio {
 			max-width: 100%;
-		}
-
-		.location-container {
-			justify-content: flex-start;
-		}
-
-		.contact-details {
-			align-items: flex-start;
 		}
 
 		.tech-stack-section {
@@ -694,16 +618,6 @@
 
 		.role {
 			justify-content: center;
-		}
-
-		.location-container {
-			justify-content: center;
-		}
-
-		.contact-details {
-			align-items: center;
-			margin-left: auto;
-			margin-right: auto;
 		}
 
 		.tech-stack-section {
