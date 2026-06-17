@@ -216,17 +216,16 @@ a {
 
 /* Responsive Breakpoints */
 
-/* Large monitors: freeze the layout in a centered 1400px container so it
-   doesn't keep stretching. At exactly 1400px this equals the 30%/70% layout
-   (sidebar 420px / content 980px), so the transition is seamless. */
+/* Large monitors: keep the sidebar pinned to the left edge and widen it a bit
+   so the content sits closer to it. The fluid root font keeps everything from
+   feeling too sparse as the screen grows. */
 @media (min-width: 1400px) {
 	.sidebar {
-		width: 26.25rem; /* 420px at base — grows with the fluid root font */
-		left: calc((100vw - 87.5rem) / 2);
+		width: 34%;
 	}
 	.main-content {
-		margin-left: calc((100vw - 87.5rem) / 2 + 26.25rem);
-		width: calc(87.5rem - 26.25rem);
+		margin-left: 34%;
+		width: 66%;
 	}
 }
 
