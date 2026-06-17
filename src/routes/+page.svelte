@@ -143,7 +143,7 @@
 								<div class="tech-logo-badge" style="--brand: {techColors[tag] ?? 'var(--text-secondary)'}">
 									{#if techIcons[tag]}
 										{#if techIcons[tag].startsWith('<svg')}
-											{@html techIcons[tag].replace('<svg', '<svg class="tech-logo-icon"')}
+											{@html techIcons[tag].replace('<svg', '<svg width="18" height="18" class="tech-logo-icon"')}
 										{:else}
 											<svg viewBox="0 0 24 24" class="tech-logo-icon">
 												{@html techIcons[tag]}
@@ -211,7 +211,7 @@
 								<div class="tech-logo-badge" style="--brand: {techColors[tag] ?? 'var(--text-secondary)'}">
 									{#if techIcons[tag]}
 										{#if techIcons[tag].startsWith('<svg')}
-											{@html techIcons[tag].replace('<svg', '<svg class="tech-logo-icon"')}
+											{@html techIcons[tag].replace('<svg', '<svg width="18" height="18" class="tech-logo-icon"')}
 										{:else}
 											<svg viewBox="0 0 24 24" class="tech-logo-icon">
 												{@html techIcons[tag]}
@@ -239,8 +239,6 @@
 		flex-direction: column;
 		gap: 2rem;
 		scroll-margin-top: 4rem;
-		width: 100%;
-		max-width: 960px; /* keeps content compact on large monitors */
 	}
 
 	.section-heading {

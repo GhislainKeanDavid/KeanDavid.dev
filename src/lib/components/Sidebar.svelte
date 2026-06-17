@@ -226,14 +226,16 @@
 			</div>
 		</div>
 
-			<div class="badge-list">
+			<div class="tech-stack-section">
+				<h2 class="section-title">Tech Stack</h2>
+				<div class="badge-list">
 				{#each allTechs as item}
 					<span class="tech-badge" style="--brand-color: {item.color}; --brand-color-glow: {item.colorGlow}">
 						{#if item.icon}
 							{#if item.icon.startsWith('<svg')}
-								{@html item.icon.replace('<svg', '<svg class="badge-icon"')}
+								{@html item.icon.replace('<svg', '<svg width="14" height="14" class="badge-icon"')}
 							{:else if item.icon.startsWith('<img')}
-								{@html item.icon}
+								{@html item.icon.replace('<img', '<img width="14" height="14" style="object-fit:contain"')}
 							{:else}
 								<svg viewBox="0 0 24 24" class="badge-icon">
 									{@html item.icon}
@@ -243,6 +245,7 @@
 						{item.name}
 					</span>
 				{/each}
+				</div>
 			</div>
 
 		<!-- Footer Area: Social Media -->
