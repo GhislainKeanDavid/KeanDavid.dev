@@ -1,0 +1,8 @@
+node_modules
+build
+.svelte-kit
+.git
+.vscode
+*.md
+KeanDavid-Resume.pdf
+vspsGRAD2_3565.jpg
