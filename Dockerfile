@@ -2,7 +2,9 @@
 FROM node:22-alpine AS build
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci
+# npm install (not ci) so platform-specific optional native deps resolve
+# correctly when building on Linux from a Windows-generated lockfile.
+RUN npm install --no-audit --no-fund
 COPY . .
 RUN npm run build
 
