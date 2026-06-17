@@ -233,9 +233,9 @@
 					<span class="tech-badge" style="--brand-color: {item.color}; --brand-color-glow: {item.colorGlow}">
 						{#if item.icon}
 							{#if item.icon.startsWith('<svg')}
-								{@html item.icon.replace('<svg', '<svg width="14" height="14" class="badge-icon"')}
+								{@html item.icon.replace('<svg', '<svg class="badge-icon"')}
 							{:else if item.icon.startsWith('<img')}
-								{@html item.icon.replace('<img', '<img width="14" height="14" style="object-fit:contain"')}
+								{@html item.icon}
 							{:else}
 								<svg viewBox="0 0 24 24" class="badge-icon">
 									{@html item.icon}
@@ -286,10 +286,10 @@
 
 	.avatar-container {
 		position: relative;
-		width: 140px;
-		height: 140px;
+		width: 8.75rem;
+		height: 8.75rem;
 		border-radius: 50%;
-		padding: 4px;
+		padding: 0.25rem;
 		background: linear-gradient(135deg, var(--accent-orange), var(--accent-sand));
 	}
 
@@ -330,7 +330,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
-		min-height: 85px;
+		min-height: 5.3125rem;
 	}
 
 	.name {
@@ -371,7 +371,7 @@
 		color: var(--text-secondary);
 		line-height: 1.5;
 		margin-top: 0.25rem;
-		max-width: 290px;
+		max-width: 18.125rem;
 	}
 
 	.tech-stack-section {
@@ -394,7 +394,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.4rem;
-		max-height: 220px;
+		max-height: 13.75rem;
 		overflow-y: auto;
 		scrollbar-width: none;
 	}
@@ -426,16 +426,17 @@
 		box-shadow: 0 4px 10px var(--brand-color-glow);
 	}
 
-	.badge-icon {
-		width: 13px;
-		height: 13px;
+	/* :global so the sizing also reaches the icons injected via {@html} */
+	.badge-list :global(.badge-icon) {
+		width: 0.875rem;
+		height: 0.875rem;
 		flex-shrink: 0;
 		object-fit: contain;
 		color: var(--brand-color, var(--text-secondary));
 		transition: var(--transition-fast);
 	}
 
-	.tech-badge:hover .badge-icon {
+	.tech-badge:hover :global(.badge-icon) {
 		color: var(--text-primary);
 	}
 
@@ -456,8 +457,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 36px;
-		height: 36px;
+		width: 2.25rem;
+		height: 2.25rem;
 		border-radius: 8px;
 		background: rgba(255, 255, 255, 0.02);
 		border: 1px solid var(--border-color);
@@ -473,8 +474,8 @@
 	}
 
 	.svg-icon {
-		width: 16px;
-		height: 16px;
+		width: 1rem;
+		height: 1rem;
 		fill: currentColor;
 	}
 

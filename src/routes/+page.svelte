@@ -143,7 +143,7 @@
 								<div class="tech-logo-badge" style="--brand: {techColors[tag] ?? 'var(--text-secondary)'}">
 									{#if techIcons[tag]}
 										{#if techIcons[tag].startsWith('<svg')}
-											{@html techIcons[tag].replace('<svg', '<svg width="18" height="18" class="tech-logo-icon"')}
+											{@html techIcons[tag].replace('<svg', '<svg class="tech-logo-icon"')}
 										{:else}
 											<svg viewBox="0 0 24 24" class="tech-logo-icon">
 												{@html techIcons[tag]}
@@ -211,7 +211,7 @@
 								<div class="tech-logo-badge" style="--brand: {techColors[tag] ?? 'var(--text-secondary)'}">
 									{#if techIcons[tag]}
 										{#if techIcons[tag].startsWith('<svg')}
-											{@html techIcons[tag].replace('<svg', '<svg width="18" height="18" class="tech-logo-icon"')}
+											{@html techIcons[tag].replace('<svg', '<svg class="tech-logo-icon"')}
 										{:else}
 											<svg viewBox="0 0 24 24" class="tech-logo-icon">
 												{@html techIcons[tag]}
@@ -277,7 +277,7 @@
 
 	.timeline-line {
 		position: absolute;
-		left: 5px;
+		left: 0.3125rem;
 		top: 0.5rem;
 		bottom: 0.5rem;
 		width: 2px;
@@ -290,10 +290,10 @@
 
 	.timeline-dot {
 		position: absolute;
-		left: -24px;
+		left: -1.5rem;
 		top: 2rem;
-		width: 12px;
-		height: 12px;
+		width: 0.75rem;
+		height: 0.75rem;
 		border-radius: 50%;
 		background: var(--bg-color-main);
 		border: 2px solid var(--accent-orange);
@@ -458,8 +458,8 @@
 	}
 
 	.link-icon {
-		width: 20px;
-		height: 20px;
+		width: 1.25rem;
+		height: 1.25rem;
 		fill: var(--text-secondary);
 		transition: var(--transition-fast);
 	}
@@ -482,8 +482,8 @@
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 34px;
-		height: 34px;
+		width: 2.125rem;
+		height: 2.125rem;
 		background: rgba(255, 255, 255, 0.02);
 		border: 1px solid var(--border-color);
 		color: var(--brand, var(--text-secondary));
@@ -498,9 +498,10 @@
 		box-shadow: 0 4px 10px color-mix(in srgb, var(--brand, var(--accent-orange)) 25%, transparent);
 	}
 
-	.tech-logo-icon {
-		width: 18px;
-		height: 18px;
+	/* :global so the sizing also reaches the icons injected via {@html} */
+	.project-tech-only :global(.tech-logo-icon) {
+		width: 1.125rem;
+		height: 1.125rem;
 		flex-shrink: 0;
 	}
 

@@ -36,6 +36,13 @@
 	padding: 0;
 }
 
+/* Fluid root font-size: since the UI is sized in rem, this scales the whole
+   site (text, spacing, images, sections) with the viewport — within limits.
+   ~16px up to 1400px wide, growing to ~24px by ~2200px, then capped. */
+html {
+	font-size: clamp(1rem, calc(1vw + 0.125rem), 1.5rem);
+}
+
 body {
 	background-color: var(--bg-color-main);
 	color: var(--text-primary);
@@ -214,12 +221,12 @@ a {
    (sidebar 420px / content 980px), so the transition is seamless. */
 @media (min-width: 1400px) {
 	.sidebar {
-		width: 420px;
-		left: calc((100vw - 1400px) / 2);
+		width: 26.25rem; /* 420px at base — grows with the fluid root font */
+		left: calc((100vw - 87.5rem) / 2);
 	}
 	.main-content {
-		margin-left: calc((100vw - 1400px) / 2 + 420px);
-		width: calc(1400px - 420px);
+		margin-left: calc((100vw - 87.5rem) / 2 + 26.25rem);
+		width: calc(87.5rem - 26.25rem);
 	}
 }
 
